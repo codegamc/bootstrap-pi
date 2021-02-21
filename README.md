@@ -1,12 +1,12 @@
 # bootstrap-pi
 Bootstrap your pi
 
-"The goal is to enable someone to start using a pi quickly and easily. They simply install the linux distro on their pi, plug it in, and it comes configured and ready to use, complete with a VNC server accessible over a browser, so they can easily get started"
+The goal is to enable someone to start using a pi quickly and easily without dedicating a monitor or keyboard to the pi. They install the linux distro on their pi, plug it in, and it comes configured and ready to use, complete with a VNC server accessible over a browser.
 
--> mDNS discovery, potentially a fallback 
--> noVNC web-based VNC client.
--> Need a cert, self signed, the user accepts the risk warning
--> config is baked right into the OS image when its written to disk.
+* mDNS discovery, potentially a fallback 
+* [noVNC](https://github.com/novnc/noVNC) web-based VNC client.
+* Need a cert, self signed, the user accepts the risk warning. see [let's encrypt](https://letsencrypt.org/docs/certificates-for-localhost/) for why
+* config is baked right into the OS image when its written to disk.
 
 Other thoughts:
 
